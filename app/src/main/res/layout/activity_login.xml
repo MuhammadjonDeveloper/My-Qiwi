@@ -21,8 +21,7 @@
             android:id="@+id/login_l_login"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:hint="Login"
-            android:textColorHint="@color/colorYellow" />
+            android:hint="Login" />
     </android.support.design.widget.TextInputLayout>
 
 

@@ -87,9 +87,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
                                 @Override
                                 public void onSuccess(SignInResponse signInResponse) {
-                                    int num = preferences.getInt("iss", 0);
-                                    Toast.makeText(LoginActivity.this, "userId" + signInResponse.getUserId(), Toast.LENGTH_SHORT).show();
-                                    if (num == signInResponse.getUserId()) {
+                                    int num = preferences.getInt("iss", 9);
+                                    Toast.makeText(LoginActivity.this, "userId : " + signInResponse.getUserId(), Toast.LENGTH_SHORT).show();
+                                    if (num==signInResponse.getUserId()) {
                                         Intent intent = new Intent(LoginActivity.this, PingcodeActivity.class);
                                         pBar.setVisibility(View.GONE);
                                         startActivity(intent);
@@ -133,6 +133,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         passwort = etpasswort.getText().toString();
         if (!login.isEmpty() && !passwort.isEmpty()) {
             btn_save.setEnabled(true);
+            btn_save.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.colorYellow));
+        }else{
+            btn_save.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.colorDarkGray));
+            btn_save.setEnabled(false);
         }
     }
 }

@@ -77,12 +77,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textColor="@color/colorYellow"
+            android:textColor="@color/colorDarkGray"
             android:layout_weight="1"
             android:textStyle="italic"
-            android:text="Sing In"
+            android:text="Registr"
             android:background="@drawable/btn_sign"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <ProgressBar
