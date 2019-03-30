@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhile">#ffffff</color>
+    <color name="colorBlueDark">#011a78</color>
+    <color name="colorBlueT">#026594</color>
+    <color name="colorBlue">#1abcf7</color>
+
+
+    <color name="colorDarkGray">#878889</color>
+    <color name="colorTextDarkGray">#616161</color>
+    <color name="colorGrayLight">#f5f5f5</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#111214</color>
+    <color name="errorRed">#D50000</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorRedLight">#ff3d00</color>
+    <color name="colorYellow">#FFA200</color>
+    <color name="fingerprint_error_color">#F4511E</color>
+    <color name="colorGreen">#4caf50</color>
+    <color name="colorGreenSalad">#25d000</color>
+    <color name="text_color_gray">#424242</color>
+    <color name="text_color_black">#212121</color>
+    <color name="pin_text_color">#212121</color>
+    <color name="divider_color">#BDBDBD</color>
+    <color name="control_normal_color">#E0E0E0</color>
+    <color name="login_text_hint_color">#9E9E9E</color>
+    <color name="light_blue">#95BAF9</color>
+    <color name="background_color">#FAFAFA</color>
+</resources>

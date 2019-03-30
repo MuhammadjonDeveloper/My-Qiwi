@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/one"
+        android:layout_width="@dimen/pin_circle_size"
+        android:layout_height="@dimen/pin_circle_size"
+        android:layout_margin="@dimen/pin_circle_margin"
+        android:background="@drawable/circle_pin_empty" />
+
+    <View
+        android:id="@+id/two"
+        android:layout_width="@dimen/pin_circle_size"
+        android:layout_height="@dimen/pin_circle_size"
+        android:layout_margin="@dimen/pin_circle_margin"
+        android:background="@drawable/circle_pin_empty" />
+
+    <View
+        android:id="@+id/three"
+        android:layout_width="@dimen/pin_circle_size"
+        android:layout_height="@dimen/pin_circle_size"
+        android:layout_margin="@dimen/pin_circle_margin"
+        android:background="@drawable/circle_pin_empty" />
+
+    <View
+        android:id="@+id/four"
+        android:layout_width="@dimen/pin_circle_size"
+        android:layout_height="@dimen/pin_circle_size"
+        android:layout_margin="@dimen/pin_circle_margin"
+        android:background="@drawable/circle_pin_empty" />
+
+    <View
+        android:id="@+id/five"
+        android:layout_width="@dimen/pin_circle_size"
+        android:layout_height="@dimen/pin_circle_size"
+        android:layout_margin="@dimen/pin_circle_margin"
+        android:background="@drawable/circle_pin_empty" />
+
+    <View
+        android:id="@+id/six"
+        android:layout_width="@dimen/pin_circle_size"
+        android:layout_height="@dimen/pin_circle_size"
+        android:layout_margin="@dimen/pin_circle_margin"
+        android:background="@drawable/circle_pin_empty" />
+
+</LinearLayout>
