@@ -135,7 +135,7 @@ public class RegistrActivity extends AppCompatActivity implements View.OnClickLi
             buttonsave.setTextColor(ContextCompat.getColor(getApplicationContext(),R.color.colorYellow));
 
         }else{
-            buttonsave.setTextColor(ContextCompat.getColor(getApplicationContext(),R.color.colorDarkGray));
+            buttonsave.setTextColor(ContextCompat.getColor(getApplicationContext(),R.color.divider_color));
             buttonsave.setEnabled(false);
         }
     }

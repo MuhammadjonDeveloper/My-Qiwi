@@ -135,7 +135,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             btn_save.setEnabled(true);
             btn_save.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.colorYellow));
         }else{
-            btn_save.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.colorDarkGray));
+            btn_save.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.divider_color));
             btn_save.setEnabled(false);
         }
     }

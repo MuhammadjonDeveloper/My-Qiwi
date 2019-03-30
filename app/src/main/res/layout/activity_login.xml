@@ -35,7 +35,6 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:hint="Password"
-            android:textColorHint="@color/colorYellow"
             android:textSize="20sp" />
     </android.support.design.widget.TextInputLayout>
 
@@ -66,7 +65,6 @@
             android:background="@drawable/btn_sign"
             android:gravity="center"
             android:text=" Save "
-            android:textColor="@color/colorYellow"
             android:textSize="20sp" />
     </LinearLayout>
 
