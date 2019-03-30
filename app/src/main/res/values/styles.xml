@@ -13,4 +13,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+ <style parent="Theme.AppCompat.NoActionBar" name="SplashTheme">
+
+<item name="android:windowBackground">@drawable/qiwi_2</item>
+
+</style>
+
 </resources>
