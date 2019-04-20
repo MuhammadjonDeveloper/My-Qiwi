@@ -24,7 +24,7 @@ import com.example.muhammadjon.myproject.comon.TextWatcherImpl;
 import com.example.muhammadjon.myproject.model.req.SignInRequest;
 import com.example.muhammadjon.myproject.model.res.SignInResponse;
 import com.example.muhammadjon.myproject.network.ApiService;
-import com.example.muhammadjon.myproject.utils.Utils;
+import com.example.muhammadjon.myproject.utils.NetUtils;
 
 import io.reactivex.Single;
 import io.reactivex.SingleObserver;
@@ -73,7 +73,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.login_l_btn_save: {
-                if (Utils.isOnline(this)) {
+                NetUtils netUtils=NetUtils.getINSTAINS(this);
+                if (netUtils.isOnline()) {
                     pBar.setVisibility(View.VISIBLE);
                     SignInRequest request = new SignInRequest(login, passwort);
                     Single<SignInResponse> single = service.signIn(request);

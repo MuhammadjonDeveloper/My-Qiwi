@@ -10,6 +10,9 @@ import android.arch.persistence.room.Update;
 import java.util.ArrayList;
 import java.util.List;
 
+import io.reactivex.Maybe;
+import io.reactivex.Observable;
+
 @Dao
 public interface MerchantsDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
@@ -22,5 +25,5 @@ public interface MerchantsDao {
     void delete(Merchants merchants);
 
     @Query("select * from merchants where category_id = :categoryId")
-    List<Merchants> getAll(long categoryId);
+    Maybe<List<Merchants>> getAll(long categoryId);
 }

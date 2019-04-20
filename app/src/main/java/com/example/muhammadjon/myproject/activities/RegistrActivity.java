@@ -25,7 +25,7 @@ import com.example.muhammadjon.myproject.comon.TextWatcherImpl;
 import com.example.muhammadjon.myproject.model.req.SignUpRequest;
 import com.example.muhammadjon.myproject.model.res.SignUpResponse;
 import com.example.muhammadjon.myproject.network.ApiService;
-import com.example.muhammadjon.myproject.utils.Utils;
+import com.example.muhammadjon.myproject.utils.NetUtils;
 
 import java.util.Objects;
 
@@ -81,7 +81,8 @@ public class RegistrActivity extends AppCompatActivity implements View.OnClickLi
 
     @Override
     public void onClick(View view) {
-        if (Utils.isOnline(this)) {
+        NetUtils netUtils=NetUtils.getINSTAINS(this);
+        if (netUtils.isOnline()) {
             bar.setVisibility(View.VISIBLE);
             Log.d("RegistrActivity", surname + name + "Salomlar");
             if (!surname.isEmpty() && !name.isEmpty() &&
