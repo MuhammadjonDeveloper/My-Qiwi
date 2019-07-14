@@ -9,6 +9,7 @@
     android:orientation="vertical"
     tools:context=".activities.MainActivity">
 <ProgressBar
+    android:visibility="gone"
     android:id="@+id/paynet_uz_pb"
     style="?android:attr/progressBarStyle"
     android:layout_width="match_parent"

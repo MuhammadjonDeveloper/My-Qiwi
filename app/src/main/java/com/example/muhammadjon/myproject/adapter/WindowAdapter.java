@@ -43,7 +43,12 @@ public class WindowAdapter extends RecyclerView.Adapter<WindowAdapter.windowVH> 
     }
 
     public void setItemMarches(ArrayList<Merchants> list) {
-        merchants = list;
+if (merchants==null)
+    merchants=new ArrayList<>();
+else
+    merchants.clear();
+    merchants.addAll(list);
+        notifyDataSetChanged();
     }
 
     class windowVH extends RecyclerView.ViewHolder {
